@@ -1,5 +1,5 @@
 //change refresh period here
-var REFRESH_PERIOD = 5000;
+var REFRESH_PERIOD = 1000;
 
 //IFE for updating
 (function() {
@@ -41,12 +41,13 @@ function colorSeats(seats){
     $("#seat3").css('background-color','green');
   }
   //seat 4 occupied
+  /*
   if(seats>7){
     $("#seat4").css('background-color','red');
   }
   else{
     $("#seat4").css('background-color','green');
-  }
+  }*/
 }
 
 function getSeats(){
